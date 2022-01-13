@@ -28,12 +28,16 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Xwing Starfighter`,
-        short_name: `xwingFav`,
+        short_name: `Xwing`,
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#cd4035`,
         display: `standalone`,
+        orientation: `landscape-primary`,
         icon: `src/images/icon.png`,
+        icon_options: {
+          purpose: `maskable`,
+        },
       },
     },
     `gatsby-plugin-offline`,
