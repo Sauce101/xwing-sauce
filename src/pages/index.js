@@ -2,10 +2,12 @@ import React from "react"
 import Layout from "../components/Layout"
 import { StaticImage } from "gatsby-plugin-image"
 import Xwing from "../components/Xwing"
+import Seo from "../components/SEO"
 
 export default function Home() {
   return (
     <Layout>
+      <Seo title="T-65B" />
       <header className="hero">
         <StaticImage
           src="../assets/images/newxwing.jpg"
@@ -16,7 +18,8 @@ export default function Home() {
         />
         <div className="hero-container">
           <div className="hero-text">
-            <h1>X-Wing Sauce</h1>
+            <h1>X-wing Sauce</h1>
+            <h3>T-65B</h3>
           </div>
         </div>
       </header>
