@@ -24,5 +24,18 @@ module.exports = {
         path: `${__dirname}/src/assets/images`,
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Xwing Starfighter`,
+        short_name: `xwingFav`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#cd4035`,
+        display: `standalone`,
+        icon: `src/images/icon.png`,
+      },
+    },
+    `gatsby-plugin-offline`,
   ],
 }
