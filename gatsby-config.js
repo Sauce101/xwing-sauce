@@ -34,7 +34,8 @@ module.exports = {
         theme_color: `#cd4035`,
         display: `standalone`,
         orientation: `landscape`,
-        icon: `src/images/icon.png`,
+        // icon: `src/images/icon.png`,
+        icon: `src/assets/favicon/icon.png`,
         icon_options: {
           purpose: `any maskable`,
         },
