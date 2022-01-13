@@ -16,8 +16,7 @@ export default function Home() {
         />
         <div className="hero-container">
           <div className="hero-text">
-            <h1>x-wing sauce</h1>
-            {/* <h4>no fluff, just recipes</h4> */}
+            <h1>X-Wing Sauce</h1>
           </div>
         </div>
       </header>
