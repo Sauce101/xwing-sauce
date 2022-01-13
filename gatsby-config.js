@@ -33,7 +33,7 @@ module.exports = {
         background_color: `#f7f0eb`,
         theme_color: `#cd4035`,
         display: `standalone`,
-        orientation: `landscape-primary`,
+        orientation: `landscape`,
         icon: `src/images/icon.png`,
         icon_options: {
           purpose: `any maskable`,
