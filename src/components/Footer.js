@@ -4,9 +4,7 @@ const Footer = () => {
   return (
     <footer className="page-footer">
       <p>
-        &copy; {new Date().getFullYear()}{" "}
-        <span className="rebelred">X-Wing Sauce</span>. Built with{" "}
-        <a href="https://www.gatsbyjs.com/get-started/">Gatsby</a>
+        &copy; {new Date().getFullYear()} <span>X-wing Sauce</span>
       </p>
     </footer>
   )

@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <Layout>
       <Seo title="T-65B" />
-      <header className="hero">
+      <header className="hero" id="hero">
         <StaticImage
-          src="../assets/images/hero02.jpg"
+          src="../assets/images/hero.png"
           alt="starfighter"
           className="hero-img"
           placeholder="tracedSVG"
@@ -18,8 +18,7 @@ export default function Home() {
         />
         <div className="hero-container">
           <div className="hero-text">
-            <h1>X-wing Sauce</h1>
-            <h2>T-65B</h2>
+            <h1>X-wing</h1>
           </div>
         </div>
       </header>
