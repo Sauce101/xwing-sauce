@@ -10,7 +10,7 @@ export default function Home() {
       <Seo title="T-65B" />
       <header className="hero">
         <StaticImage
-          src="../assets/images/newxwing.jpg"
+          src="../assets/images/02_fs.jpg"
           alt="starfighter"
           className="hero-img"
           placeholder="tracedSVG"
@@ -19,7 +19,7 @@ export default function Home() {
         <div className="hero-container">
           <div className="hero-text">
             <h1>X-wing Sauce</h1>
-            <h3>T-65B</h3>
+            <h2>T-65B</h2>
           </div>
         </div>
       </header>
@@ -27,11 +27,3 @@ export default function Home() {
     </Layout>
   )
 }
-
-// export default function Home() {
-//   return (
-//     <Layout>
-//       <Xwing />
-//     </Layout>
-//   )
-// }
