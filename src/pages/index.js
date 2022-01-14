@@ -10,7 +10,7 @@ export default function Home() {
       <Seo title="T-65B" />
       <header className="hero">
         <StaticImage
-          src="../assets/images/02_fs.jpg"
+          src="../assets/images/hero02.jpg"
           alt="starfighter"
           className="hero-img"
           placeholder="tracedSVG"
