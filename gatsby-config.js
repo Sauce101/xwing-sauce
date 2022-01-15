@@ -52,7 +52,7 @@ module.exports = {
         display: `standalone`,
         icon: `src/assets/favicon/icon.png`,
         icon_options: {
-          purpose: `any maskable`,
+          purpose: `maskable`,
         },
       },
     },
