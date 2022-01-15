@@ -5,6 +5,16 @@ import Posterboy from "../assets/images/poster25.png"
 const Targeting = () => {
   return (
     <div className="flex-container">
+      <video
+        controls
+        poster={Posterboy}
+        disablePictureInPicture
+        controlsList="nodownload"
+        className="flex-item-left"
+      >
+        <source src={Tarcomp} type="video/mp4" />
+        <track kind="captions" srcLang="en" />
+      </video>
       <article className="flex-item-right">
         <h2>Targeting Computer</h2>
         <p>
@@ -33,16 +43,6 @@ const Targeting = () => {
           Republic indicated the distance in meters.
         </p>
       </article>
-      <video
-        className="flex-item-left target"
-        controls
-        poster={Posterboy}
-        disablePictureInPicture
-        controlsList="nodownload"
-      >
-        <source src={Tarcomp} type="video/mp4" />
-        <track kind="captions" srcLang="en" />
-      </video>
     </div>
   )
 }
