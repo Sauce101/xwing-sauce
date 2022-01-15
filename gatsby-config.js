@@ -53,7 +53,7 @@ module.exports = {
         id: `/`,
         start_url: `/`,
         background_color: `#f7f0eb`,
-        display: `minimal-ui`,
+        display: `standalone`,
         scope: `/`,
         theme_color: `#cd4035`,
         orientation: `any`,
