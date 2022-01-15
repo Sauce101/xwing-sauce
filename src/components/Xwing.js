@@ -6,6 +6,7 @@ import Pilot from "./Pilot"
 import Schematics from "./Schematics"
 import Sensors from "./Sensors"
 import Sfoils from "./Sfoils"
+import Targeting from "./Targeting"
 
 const Xwing = () => {
   return (
@@ -14,6 +15,7 @@ const Xwing = () => {
       <Schematics />
       <Engines />
       <Pilot />
+      <Targeting />
       <Astro />
       <Sensors />
       <Sfoils />

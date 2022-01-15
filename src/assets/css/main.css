@@ -283,3 +283,11 @@ nav a:hover {
 .page-footer p {
   margin-bottom: 0;
 }
+
+/*###########*/
+/* targeting */
+/*###########*/
+.target {
+  border-radius: 50px;
+  height: 80%;
+}
