@@ -18,20 +18,15 @@ const Targeting = () => {
       <article className="flex-item-right">
         <h2>Targeting Computer</h2>
         <p>
-          <dl>
-            <dd>
-              <span title="Source: Star Wars: Episode IV A New Hope">
-                <small>
-                  "
-                  <i>
-                    Luke, you switched off your targeting computer! What's
-                    wrong?
-                  </i>
-                  "<br />"<i>Nothing. I'm all right.</i>"
-                </small>
-              </span>
-            </dd>
-          </dl>
+          <span title="Source: Star Wars: Episode IV A New Hope">
+            <small>
+              "
+              <i>
+                Luke, you switched off your targeting computer! What's wrong?
+              </i>
+              "<br />"<i>Nothing. I'm all right.</i>"
+            </small>
+          </span>
         </p>
         <p>
           A targeting computer, sometimes called target computer, targeting
