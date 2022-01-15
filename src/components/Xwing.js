@@ -15,9 +15,9 @@ const Xwing = () => {
       <Schematics />
       <Engines />
       <Pilot />
-      <Targeting />
       <Astro />
       <Sensors />
+      <Targeting />
       <Sfoils />
     </div>
   )

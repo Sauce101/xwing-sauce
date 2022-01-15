@@ -1,15 +1,27 @@
 import React from "react"
 import Tarcomp from "../assets/video/targeting.mp4"
+import Posterboy from "../assets/images/poster25.png"
 
 const Targeting = () => {
   return (
-    <div className="flex-container" id="engines">
-      <article className="flex-item-left">
+    <div className="flex-container">
+      <article className="flex-item-right">
         <h2>Targeting Computer</h2>
         <p>
-          "Luke, you switched off your targeting computer! What's wrong?"
-          <br />
-          "Nothing. I'm all right."
+          <dl>
+            <dd>
+              <span title="Source: Star Wars: Episode IV A New Hope">
+                <small>
+                  "
+                  <i>
+                    Luke, you switched off your targeting computer! What's
+                    wrong?
+                  </i>
+                  "<br />"<i>Nothing. I'm all right.</i>"
+                </small>
+              </span>
+            </dd>
+          </dl>
         </p>
         <p>
           A targeting computer, sometimes called target computer, targeting
@@ -21,7 +33,13 @@ const Targeting = () => {
           Republic indicated the distance in meters.
         </p>
       </article>
-      <video controls className="flex-item-right target">
+      <video
+        className="flex-item-left target"
+        controls
+        poster={Posterboy}
+        disablePictureInPicture
+        controlsList="nodownload"
+      >
         <source src={Tarcomp} type="video/mp4" />
         <track kind="captions" srcLang="en" />
       </video>

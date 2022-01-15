@@ -1,10 +1,9 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-// import styled from "styled-components"
 
 const Pilot = () => {
   return (
-    <div className="flex-container" id="pilots">
+    <div className="flex-container">
       <StaticImage
         src="../assets/images/Biggs_reprise.png"
         alt="Luke Garvin and Biggs"
