@@ -44,18 +44,27 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Xwing Starfighter`,
         short_name: `Xwing`,
+        name: `Xwing Starfighter`,
+        icon: `src/assets/favicon/robot.png`,
+        icon_options: {
+          purpose: `any maskable`,
+        },
+        id: `/`,
         start_url: `/`,
         background_color: `#f7f0eb`,
+        display: `minimal-ui`,
+        scope: `/`,
         theme_color: `#cd4035`,
-        display: `standalone`,
-        icon: `src/assets/favicon/icon.png`,
-        icon_options: {
-          purpose: `maskable`,
-        },
+        orientation: `any`,
+        description: `X-wing fan page app`,
       },
     },
-    `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/`, `/*`],
+      },
+    },
   ],
 }
