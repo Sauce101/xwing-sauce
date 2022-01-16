@@ -8,7 +8,7 @@ const Schematics = () => {
         src="../assets/images/T-65b_blueprints.png"
         alt="schematics"
         placeholder="blurred"
-        className="flex-item-left rounded"
+        className="flex-item-left"
       />
       <article className="flex-item-right">
         <h2>Schematics</h2>

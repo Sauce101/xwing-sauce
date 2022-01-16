@@ -44,8 +44,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        short_name: `Xwing`,
-        name: `Xwing Starfighter`,
+        short_name: `X-wing`,
+        name: `X-wing Starfighter`,
         icon: `src/assets/favicon/robot.png`,
         icon_options: {
           purpose: `any maskable`,
