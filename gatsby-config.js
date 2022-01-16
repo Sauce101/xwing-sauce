@@ -52,7 +52,7 @@ module.exports = {
         },
         id: `/`,
         start_url: `/`,
-        background_color: `#c2d2e2`,
+        background_color: `#171717`,
         display: `standalone`,
         scope: `/`,
         theme_color: `#cd4035`,
