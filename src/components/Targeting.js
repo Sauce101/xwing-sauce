@@ -1,20 +1,24 @@
 import React from "react"
 import Tarcomp from "../assets/video/targeting.mp4"
-import Posterboy from "../assets/images/poster25.png"
+import Posterboy from "../assets/images/tc480.png"
+import styled from "styled-components"
 
 const Targeting = () => {
   return (
-    <div className="contact-page">
-      <video
-        controls
-        poster={Posterboy}
-        disablePictureInPicture
-        controlsList="nodownload"
-      >
-        <source src={Tarcomp} type="video/mp4" />
-        <track kind="captions" srcLang="en" />
-      </video>
-      <article>
+    <Wrapper>
+      <Contains>
+        <video
+          controls
+          poster={Posterboy}
+          disablePictureInPicture
+          controlsList="nodownload"
+        >
+          <source src={Tarcomp} type="video/mp4" />
+          <track kind="captions" srcLang="en" />
+        </video>
+      </Contains>
+
+      <div>
         <h2>Targeting Computer</h2>
         <p>
           <span title="Source: Star Wars: Episode IV A New Hope">
@@ -36,9 +40,19 @@ const Targeting = () => {
           Civil War, the targeting computers used by the Alliance to Restore the
           Republic indicated the distance in meters.
         </p>
-      </article>
-    </div>
+      </div>
+    </Wrapper>
   )
 }
+
+const Wrapper = styled.div`
+  align-items: center;
+  text-align: center;
+  padding: 3rem;
+`
+const Contains = styled.div`
+  display: flex;
+  justify-content: center;
+`
 
 export default Targeting

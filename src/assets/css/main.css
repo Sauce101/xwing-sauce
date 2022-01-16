@@ -273,6 +273,27 @@ nav a:hover {
   }
 } */
 
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+@media screen and (min-width: 992px) {
+  .parent {
+    flex-direction: row;
+  }
+}
+.parent {
+  display: flex;
+}
+
+.child {
+  /* margin: auto; */
+  padding: 3rem;
+}
+
 /* GGGGRid */
 .contact-page {
   display: grid;
@@ -299,6 +320,10 @@ nav a:hover {
   margin: 1rem 0;
 } */
 
+.target {
+  overflow-x: hidden;
+}
+
 /*#########*/
 /* Footer */
 /*#########*/
@@ -322,9 +347,16 @@ nav a:hover {
 /*###########*/
 /* targeting */
 /*###########*/
-video {
-  /* max-width: 100%;
-  height: auto; */
+/* video {
+  max-width: 100%;
+  height: auto;
   border-radius: 60px;
   margin-top: 25px;
+} */
+
+video {
+  /* override other styles to make responsive */
+  max-width: 100% !important;
+  height: auto !important;
+  border-radius: 60px;
 }
