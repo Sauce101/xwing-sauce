@@ -21,7 +21,7 @@ const Targeting = () => {
       <div>
         <h2>Targeting Computer</h2>
         <p>
-          <span title="Source: Star Wars: Episode IV A New Hope">
+          <blockquote>
             <small>
               "
               <i>
@@ -29,7 +29,7 @@ const Targeting = () => {
               </i>
               "<br />"<i>Nothing. I'm all right.</i>"
             </small>
-          </span>
+          </blockquote>
         </p>
         <p>
           A targeting computer, sometimes called target computer, targeting

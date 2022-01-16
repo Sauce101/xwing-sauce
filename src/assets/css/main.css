@@ -356,8 +356,27 @@ nav a:hover {
 
 video {
   /* override other styles to make responsive */
-  max-width: 100% !important;
-  height: auto !important;
+  max-width: 80% !important;
+  height: 288px !important;
   border-radius: 30px;
   margin: 10px 0;
+}
+
+/* @media (orientation: landscape) {
+  video {
+  max-width: 80% !important;
+  height: 288px !important;
+  border-radius: 30px;
+  margin: 10px 0;
+}
+} */
+
+@media (orientation: portrait) {
+  video {
+    /* override other styles to make responsive */
+    max-width: 100% !important;
+    height: auto !important;
+    border-radius: 30px;
+    margin: 10px 0;
+  }
 }
