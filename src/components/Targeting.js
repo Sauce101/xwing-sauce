@@ -4,7 +4,7 @@ import Posterboy from "../assets/images/poster25.png"
 
 const Targeting = () => {
   return (
-    <div className="flex-container">
+    <div className="flex-container" id="targets">
       <video
         controls
         poster={Posterboy}

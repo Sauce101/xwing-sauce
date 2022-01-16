@@ -1,10 +1,9 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import styled from "styled-components"
 
 const Schematics = () => {
   return (
-    <Wrapper id="schematics">
+    <div className="flex-container">
       <StaticImage
         src="../assets/images/T-65b_blueprints.png"
         alt="schematics"
@@ -33,20 +32,8 @@ const Schematics = () => {
           greater spread of fire as opposed to whilst shut.
         </p>
       </article>
-    </Wrapper>
+    </div>
   )
 }
-
-const Wrapper = styled.div`
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  justify-content: center;
-
-  /* Responsive layout - makes a one column-layout instead of two-column layout */
-  @media (max-width: 800px) {
-    flex-direction: column;
-  }
-`
 
 export default Schematics
