@@ -4,7 +4,7 @@ import styled from "styled-components"
 
 const Astro = () => {
   return (
-    <Wrapper id="astro">
+    <Wrapper>
       <h2>astromech droids</h2>
       <p>
         The X-wing was equipped with a long-range hyperdrive system consisting
@@ -18,19 +18,26 @@ const Astro = () => {
         without a pilot. In an emergency a separator charge would launch the
         droid clear of the craft.
       </p>
-
-      <StaticImage
-        src="../assets/images/Astro_droids.png"
-        alt="Astro droids"
-        className="rounded"
-        placeholder="blurred"
-      />
+      <Contains>
+        <StaticImage
+          src="../assets/images/Astro_droids.png"
+          alt="Astro droids"
+          className="rounded"
+          placeholder="blurred"
+        />
+      </Contains>
     </Wrapper>
   )
 }
 
 const Wrapper = styled.div`
+  align-items: center;
   text-align: center;
+  padding: 3rem;
+`
+const Contains = styled.div`
+  display: flex;
+  justify-content: center;
 `
 
 export default Astro

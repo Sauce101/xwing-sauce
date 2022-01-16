@@ -4,15 +4,15 @@ import styled from "styled-components"
 
 const Cannons = () => {
   return (
-    <Wrapper id="cannons">
-      <div>
+    <Wrapper>
+      <Contains>
         <StaticImage
           src="../assets/images/KX9laserCannon.png"
           alt="laser cannon"
           placeholder="blurred"
           className="rounded"
         />
-      </div>
+      </Contains>
       <h2>cannons</h2>
       <p>
         The craft was armed with four Taim &amp; Bak KX9 laser cannons, placed
@@ -35,7 +35,13 @@ const Cannons = () => {
 }
 
 const Wrapper = styled.div`
-  text-align: center;
+  align-items: center;
+  text-align: justify;
+  padding: 3rem;
+`
+const Contains = styled.div`
+  display: flex;
+  justify-content: center;
 `
 
 export default Cannons

@@ -3,14 +3,13 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Schematics = () => {
   return (
-    <div className="flex-container">
+    <div className="contact-page">
       <StaticImage
         src="../assets/images/T-65b_blueprints.png"
         alt="schematics"
         placeholder="blurred"
-        className="flex-item-left"
       />
-      <article className="flex-item-right">
+      <article>
         <h2>Schematics</h2>
         <p>
           The T-65B X-wing starfighter was manufactured by Incom Corporation. It

@@ -4,18 +4,17 @@ import Posterboy from "../assets/images/poster25.png"
 
 const Targeting = () => {
   return (
-    <div className="flex-container" id="targets">
+    <div className="contact-page">
       <video
         controls
         poster={Posterboy}
         disablePictureInPicture
         controlsList="nodownload"
-        className="flex-item-left"
       >
         <source src={Tarcomp} type="video/mp4" />
         <track kind="captions" srcLang="en" />
       </video>
-      <article className="flex-item-right">
+      <article>
         <h2>Targeting Computer</h2>
         <p>
           <span title="Source: Star Wars: Episode IV A New Hope">

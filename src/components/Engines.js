@@ -4,8 +4,8 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Engines = () => {
   return (
-    <div className="flex-container" id="engines">
-      <article className="flex-item-left">
+    <div className="contact-page">
+      <article>
         <h2>Engines</h2>
         <p>
           Four 4L4 fusial thrust engines were attached to the wings of the
@@ -29,20 +29,11 @@ const Engines = () => {
       <StaticImage
         src="../assets/images/xwing-engine4L4.jpg"
         alt="Engine cross section"
-        className="flex-item-right rounded"
+        className="rounded"
         placeholder="blurred"
       />
     </div>
   )
 }
-
-// const Wrapper = styled.section`
-//   .flex-container {
-//     display: flex;
-//     flex-direction: row;
-//     font-size: 30px;
-//     text-align: center;
-//   }
-// `
 
 export default Engines

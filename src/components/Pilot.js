@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Pilot = () => {
   return (
-    <div className="flex-container">
+    <div className="contact-page">
       <StaticImage
         src="../assets/images/Biggs_reprise.png"
         alt="Luke Garvin and Biggs"

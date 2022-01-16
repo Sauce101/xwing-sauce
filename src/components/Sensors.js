@@ -32,7 +32,8 @@ const Sensors = () => {
 }
 
 const Wrapper = styled.div`
-  text-align: center;
+  text-align: justify;
+  padding: 3rem;
 `
 
 export default Sensors

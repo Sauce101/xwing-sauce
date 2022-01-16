@@ -1,11 +1,10 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-// import styled from "styled-components"
 
 const Sfoils = () => {
   return (
-    <div className="flex-container" id="attack">
-      <article className="flex-item-left">
+    <div className="contact-page">
+      <article>
         <h2>Attack Position</h2>
         <p>
           S-foils in attack position provided the X-wing with additional
@@ -21,11 +20,10 @@ const Sfoils = () => {
           enough to cause the pilot's head to swim and their vision to glitter.
         </p>
       </article>
-
       <StaticImage
         src="../assets/images/xwing-back01.jpg"
         alt="S foils"
-        className="flex-item-right rounded"
+        className="rounded"
         placeholder="blurred"
       />
     </div>
