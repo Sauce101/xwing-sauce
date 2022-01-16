@@ -358,5 +358,6 @@ video {
   /* override other styles to make responsive */
   max-width: 100% !important;
   height: auto !important;
-  border-radius: 60px;
+  border-radius: 30px;
+  margin: 10px 0;
 }
