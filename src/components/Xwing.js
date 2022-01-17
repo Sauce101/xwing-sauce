@@ -10,7 +10,7 @@ import Targeting from "./Targeting"
 
 const Xwing = () => {
   return (
-    <div className="page">
+    <div>
       <Cannons />
       <Schematics />
       <Engines />

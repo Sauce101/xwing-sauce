@@ -7,12 +7,12 @@
   font-family: "Solid";
   src: local("Solid"), url("../fonts/SfDG.ttf") format("truetype");
   font-display: swap;
-}
+} */
 @font-face {
   font-family: "Aurebesh";
   src: local("Aurebesh"), url("../fonts/Aurebesh.otf") format("opentype");
   font-display: swap;
-} */
+}
 
 *,
 ::after,
@@ -73,6 +73,7 @@
   --headingFont: "Inconsolata", monospace;
   --bodyFont: "Montserrat", sans-serif;
   --heroFont: "Hollow", serif;
+  --sotFont: "Aurebesh", sans-serif;
   --smallText: 0.8em;
   --extraSmallText: 0.7em;
   /* rest */
@@ -114,6 +115,12 @@ p {
   /* max-width: 40em; */
 }
 
+.sot {
+  font-family: var(--sotFont);
+  color: var(--red-rebel);
+  text-align: center;
+}
+
 h1 {
   margin: 50px 0 0;
   margin-bottom: 1.38rem;
@@ -129,7 +136,7 @@ h3,
 h4,
 h5 {
   margin: 0;
-  /* margin-bottom: 1.38rem; */
+  margin-bottom: 1.38rem;
   margin-top: 1.38rem;
   font-family: var(--headingFont);
   font-weight: 400;
@@ -251,28 +258,6 @@ nav a:hover {
 /*#########*/
 /* Content */
 /*#########*/
-/* .flex-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.flex-item-left {
-  padding: 10px 15px 10px 30px;
-  flex: 50%;
-}
-
-.flex-item-right {
-  padding: 10px 30px 10px 15px;
-  flex: 50%;
-}
-
-@media (max-width: 820px) {
-  .flex-container {
-    flex-direction: column;
-  }
-} */
-
 .parent {
   display: flex;
   flex-direction: column;

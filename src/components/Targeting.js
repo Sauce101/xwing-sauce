@@ -17,11 +17,9 @@ const Targeting = () => {
           <track kind="captions" srcLang="en" />
         </video>
       </Contains>
-
       <div>
-        <h2>Targeting Computer</h2>
-        <p>
-          <blockquote>
+        <p className="sot">
+          {/* <blockquote>
             <small>
               "
               <i>
@@ -29,8 +27,10 @@ const Targeting = () => {
               </i>
               "<br />"<i>Nothing. I'm all right.</i>"
             </small>
-          </blockquote>
+          </blockquote> */}
+          <b>STAY ON TARGET</b>
         </p>
+        <h2>Targeting Computer</h2>
         <p>
           A targeting computer, sometimes called target computer, targeting
           synchronizer, or a fire-control system, was a device used aboard

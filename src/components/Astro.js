@@ -38,6 +38,7 @@ const Wrapper = styled.div`
 const Contains = styled.div`
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
 `
 
 export default Astro
